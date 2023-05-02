@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Volkerwessels</title>
+    <title>Case Study of Project 2</title>
     <meta name="description" content="Case study page of Project" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -75,16 +75,19 @@
               <a href="./index.html#projects"> Projects </a>
             </li>
 
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
           </ul>
         </div>
       </div>
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-          <h1 class="heading-primary">VolkerWessels' portal - server side</h1>
+        <h1 class="heading-primary">Microservices application</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Helping a leading construction company to achieve its goals
+            Learning about microservices, one line of code at a time
           </p>
         </div>
       </div>
@@ -94,7 +97,7 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/jpeg/volkerwessels.jpg"
+              src="./assets/png/microservices.png"
               alt="Project Image"
               class="project-details__showcase-img"
             />
@@ -103,46 +106,31 @@
               <div class="project-details__desc">
                   <h3 class="project-details__content-title">Project Overview</h3>
                   <p class="project-details__desc-para">
-                      Volkerwessels is a well-known construction company in the Netherlands. Their internal webshop,
-                      developed in partnership with Geckotech, offers company an easy way to order and manage building materials
-                      for their construction projects.
+                      While waiting for my next assignment at Blue Harvest - Capgemini, I took the opportunity to improve my
+                      knowledge one of the most prevalent trend in the technological world today: microservices.
                   </p>
                   <p class="project-details__desc-para">
-                      Working in sprint with 2 other developers (1 team lead and 1 Frontend developer), I was taking
-                      care of most of the backend workload. I've implemented a lot of new funcionalities, created
-                      a new api for one of their new interfaces, fixed countless bugs, created new pages for the
-                      admins' backoffice and the list goes on.
-                  </p>
-                  <p class="project-details__desc-para">
-                      Some major achievments accomplished on in this project:
-                      <ul class="project-details__desc-para">
-                          <li>
-                              &#x2022; Upgraded the Elasticsearch engine to the latest version.
-                          </li>
-                          <li>
-                              &#x2022; Refactored all the unit tests to make them self contained
-                          </li>
-                          <li>&#x2022; Developed an API for a new interface</li>
-                      </ul>
-                  </p>
-                  <p class="project-details__desc-para">
-                      If you want to read more about Geckotech, they're an amazing company: <a href="https://geckotech.nl/">https://geckotech.nl/</a>
-                  </p>
-                  <p class="project-details__desc-para">
-                      If you want to read more about Volkerwessels' portal: <a href="https://www.vwml.nl/nl/vwml-portal">https://www.vwml.nl/nl/vwml-portal</a>
+                      Following a tutorial, I created this simple microservice architecture for a webshop. The idea is 
+                      that when a user wants to order a product, the server checks if it is available in the inventory
+                      and to place the order. Each component is in its own microservice with a separate database. It
+                      also uses kafka to send notification when an order is placed.
                   </p>
               </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                  <div class="skills__skill">Groovy</div>
-                  <div class="skills__skill">Grails</div>
-                  <div class="skills__skill">Git</div>
-                  <div class="skills__skill">Docker</div>
+                  <div class="skills__skill">Java</div>
+                  <div class="skills__skill">Spring Boot</div>
+                  <div class="skills__skill">Spring Cloud</div>
                   <div class="skills__skill">PostgreSQL</div>
-                  <div class="skills__skill">GSP</div>
-                  <div class="skills__skill">Elasticsearch</div>
+                  <div class="skills__skill">MongoDB</div>
+                  <div class="skills__skill">Kafka</div>
               </div>
+            </div>
+            <div class="project-details__links">
+                <a href="https://github.com/morantaf/microservices"
+                   class="btn btn--med btn--theme-inv project-details__links-btn"
+                   target="_blank">Code Link</a>
             </div>
           </div>
         </div>
